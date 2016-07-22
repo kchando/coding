@@ -8,6 +8,10 @@ import java.util.*;
  *
  * If you need more classes, simply define them inline.
  */
+// This code can be used to solve 3 different problems:-
+// 1) Level by Level tree node printing.
+// 2) BFS Tree Traversal
+// 3) Finding height of the tree in non recursive approach
 
 class TreeNode{
   
