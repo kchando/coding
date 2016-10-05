@@ -5,6 +5,7 @@ import java.util.*;
  * 1 Dice - 6 possible outcomes
  * 3 Dice - 6^3 = 216 Possible Outcomes
  * Print all the combinations in sorted order
+ * 1 1 1 | 1 1 2 | 1 1 3| ...............6 1 1 | 6 1 2 | 6 1 3 | .......6 6 1 | 6 6 2....6 6 6
  */
 
 public class Solution {
