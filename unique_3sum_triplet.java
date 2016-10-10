@@ -2,10 +2,8 @@ import java.io.*;
 import java.util.*;
 
 /*
- * To execute Java, please define "static void main" on a class
- * named Solution.
- *
- * If you need more classes, simply define them inline.
+ * Find all unique triplets in the array which gives the sum of zero.
+ * Using HashSet for collecting unique triplets in ArrayList. Also Called as 3SUM Problem 
  */
 
 class Solution {
