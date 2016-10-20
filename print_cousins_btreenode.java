@@ -15,6 +15,7 @@ import java.util.*;
  
  If given node is 5, Output will be 6, 7. sibling 4, should not be included.  
  */
+// The important thing to remember is when talking about level, it starts from 1 and the level of the root is 1.Note that the depth of the root is 0.
 
 class Node {
   
