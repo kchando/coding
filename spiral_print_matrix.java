@@ -71,8 +71,6 @@ class Solution {
         break;
       }
     
-      
-      
       // move right , down, left, up
       for ( int i=0; i < n-1; i++){
         result.add(matrix[x][y++]);
@@ -94,18 +92,9 @@ class Solution {
       y++;
       m=m-2;
       n=n-2;
-      
-    
     }
-    
     return result;
-    
-    
-    
 }
-  
-  
-  
   public static void main(String[] args) {
  
         int[][] array = new int[][]{ 
