@@ -1,6 +1,9 @@
 import java.io.*;
 import java.util.*;
 
+# Linkedin Onsite coding question.
+# Referenc:- http://www.ffbit.com/blog/2013/02/26/first-occurrence-binary-search/
+
 private int firstOccurrenceBinarySearch(int[] source, int needle) {
     int low = 0;
     int high = source.length - 1;
