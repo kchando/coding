@@ -2,7 +2,8 @@ import java.io.*;
 import java.util.*;
 
 # Given an array of integers, find length of the largest subarray with sum equals to 0.
-# Referenc:- http://www.geeksforgeeks.org/find-the-largest-subarray-with-0-sum/
+# Question asked in Juniper Interview
+# Reference:- http://www.geeksforgeeks.org/find-the-largest-subarray-with-0-sum/
 #input: arr[] = {15, -2, 2, -8, 1, 7, 10, 23};
 #Output: 5
 #The largest subarray with 0 sum is -2, 2, -8, 1, 7
