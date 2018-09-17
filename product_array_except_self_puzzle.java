@@ -1,12 +1,13 @@
 import java.io.*;
 import java.util.*;
 
+/*
 # Reference:- http://www.geeksforgeeks.org/a-product-array-puzzle/
 #Example:
 #arr[] = {10, 3, 5, 6, 2}
 #prod[] = {180, 600, 360, 300, 900}
 # Analysis:- Solvnge it without division operator and in O(n). 
-
+*/
 class ProductArray 
 {
     /* Function to print product array for a given array

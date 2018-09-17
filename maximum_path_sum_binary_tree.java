@@ -1,6 +1,7 @@
 import java.io.*;
 import java.util.*;
 
+/*
 # Given a binary tree, find the maximum path sum. The path may start and end at any node in the tree.
 # Reference:- http://www.geeksforgeeks.org/find-maximum-path-sum-in-a-binary-tree/
 # http://d1gjlxt8vb0knt.cloudfront.net//wp-content/uploads/tree4.png
@@ -11,6 +12,7 @@ import java.util.*;
 # Output: 6
 #
 # 1+2+3 = 6
+*/
 
 class Node {
  
