@@ -69,6 +69,37 @@ class Solution {
     st = new StringTokenizer(bfs, " ");
     
   }
+
+  /*
+  Print level order of tree alternative method without queues.
+  */
+  public void printLevelOrder(Node root)
+  {
+    int h = height(root);
+    int i;
+    for (i=1; i<=h; i++)
+    {
+        printGivenLevel(root, i);
+        System.out.println();
+    }
+  }
+  /* Print nodes at a given level */
+  void printGivenLevel(Node root, int level)
+  {
+    if (root == null)
+        return;
+    if (level == 1)
+        System.out.println(root.data);
+    else if (level > 1)
+    {
+        printGivenLevel(root.left, level-1);
+        printGivenLevel(root.right, level-1);
+    }
+  }
+/* 
+The time complexity of the above solution is O(n2)
+*/
+
   
   public boolean hasnext(){
     if(st.hasMoreTokens()){
