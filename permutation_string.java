@@ -2,6 +2,8 @@ import java.io.*;
 import java.util.*;
 
 #Runtime :- O(n!)
+#IndexOutOfBoundsException - if the beginIndex is negative, or endIndex is larger than the length of this String object, or beginIndex is larger than endIndex.
+#
 class Solution {
   
   
